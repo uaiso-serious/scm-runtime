@@ -133,4 +133,3 @@ docker run --rm -it \
 | `/tmp/issue/comments.md` | Comentários da issue em ordem cronológica                          | Quando `ISSUE_ID` definido           |
 | `/tmp/issue/*.json`      | JSON bruto da issue e dos comentários (não versionado)             | Quando `ISSUE_ID` definido           |
 | `/tmp/issue/img/*`       | Imagens anexas da issue (todas as forjas), referenciadas nos `.md` | `ISSUE_ID` definido e qualquer forja |
-.
