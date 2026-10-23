@@ -1,0 +1,4 @@
+[tools]
+glab = "1.123.0"
+gh = "2.102.0"
+"http:tod" = { version = "4.3.5", url = "https://code.onedev.io/~downloads/projects/1076/builds/236/artifacts/linux-amd64/tod", checksum = "sha256:df8a09b296449fb174bd431a572d1c3eeca326f6ec870dbf3385d9bdb145b0d0" }
