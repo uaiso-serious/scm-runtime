@@ -26,7 +26,7 @@ jobs:
       packages: write
 
     env:
-      IMAGE_TAG: ${{ (startsWith(github.ref, 'refs/heads/develop') && 'ghcr.io/uaiso-serious/scm-runner:latest') || (startsWith(github.ref, 'refs/tags/') && format('ghcr.io/uaiso-serious/scm-runtime:{0}', github.ref_name)) || '' }}
+      IMAGE_TAG: ${{ (startsWith(github.ref, 'refs/heads/develop') && 'ghcr.io/uaiso-serious/scm-runtime:latest') || (startsWith(github.ref, 'refs/tags/') && format('ghcr.io/uaiso-serious/scm-runtime:{0}', github.ref_name)) || '' }}
       IMAGE_SHA: ghcr.io/uaiso-serious/scm-runtime:${{ github.sha }}
 
     steps:
